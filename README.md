@@ -51,19 +51,7 @@ Ranking de tiendas: La tienda con el menor puntaje compuesto es recomendada para
 ## Resultado Final:
 Tras procesar los datos y calcular los indicadores, se recomienda cerrar Tienda_1 debido a que presenta el peor desempeño general.
 
-Cómo Ejecutar el Análisis
-Requisitos
-Python 3.x
 
-Pandas
-
-scikit-learn
-
-Matplotlib
-
-Puedes instalar las dependencias usando pip:
-
-pip install pandas scikit-learn matplotlib
 ## Ejecución
 Descarga o clona este repositorio.
 
