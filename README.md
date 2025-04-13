@@ -62,7 +62,7 @@ Donde analysis.py contiene el siguiente código (resumen):
 # Resultados y Conclusión
 El análisis indicó que la tienda con el puntaje total más bajo es la Tienda_1, por lo que se recomienda su cierre. Esta conclusión se basa en la comparación de:
 
-Ventas Totales: Tienda con menor ingreso.
+Ventas Totales: Tienda con altos ingresos, no justifica lo que viene a continuación.
 
 Calificación Promedio: Bajo nivel de satisfacción de clientes.
 
