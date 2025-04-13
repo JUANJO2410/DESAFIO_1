@@ -1,4 +1,5 @@
-#Análisis de Desempeño y Decisión de Cierre de Tiendas
+# Análisis de Desempeño y Decisión de Cierre de Tiendas
+
 Este repositorio contiene un análisis de desempeño de cuatro tiendas (Tienda_1, Tienda_2, Tienda_3 y Tienda_4) a partir de datos de ventas, calificaciones de clientes y costos logísticos (envío). El objetivo principal es determinar, mediante un enfoque multicriterio, cuál tienda debería cerrarse en función de su bajo desempeño general.
 
 ##Contenido
@@ -25,7 +26,7 @@ Calificación Promedio: Satisfacción de los clientes.
 
 Costo de Envío Promedio: Promedio del costo de envío en cada tienda.
 
-##Metodología:
+## Metodología:
 Se aplicaron los siguientes pasos en el análisis:
 
 Carga y procesamiento de los archivos CSV (usando Pandas).
@@ -40,14 +41,14 @@ Distribución de calificaciones, enfocándose en el porcentaje de calificaciones
 
 Costo de envío promedio.
 
-##Normalización de variables:
+## Normalización de variables:
 Para comparar indicadores con unidades distintas, se utilizó MinMaxScaler de scikit-learn. Las métricas donde un valor alto es malo (% de calificaciones malas y costo de envío) se invirtieron.
 
 Cálculo de un puntaje compuesto que es el promedio de las métricas normalizadas.
 
 Ranking de tiendas: La tienda con el menor puntaje compuesto es recomendada para cerrar.
 
-##Resultado Final:
+## Resultado Final:
 Tras procesar los datos y calcular los indicadores, se recomienda cerrar Tienda_1 debido a que presenta el peor desempeño general.
 
 Cómo Ejecutar el Análisis
@@ -63,7 +64,7 @@ Matplotlib
 Puedes instalar las dependencias usando pip:
 
 pip install pandas scikit-learn matplotlib
-##Ejecución
+## Ejecución
 Descarga o clona este repositorio.
 
 Asegúrate de tener en la raíz del proyecto los archivos CSV de las tiendas.
@@ -74,7 +75,7 @@ python analysis.py
 Donde analysis.py contiene el siguiente código (resumen):
 
 
-#Resultados y Conclusión
+# Resultados y Conclusión
 El análisis indicó que la tienda con el puntaje total más bajo es la Tienda_1, por lo que se recomienda su cierre. Esta conclusión se basa en la comparación de:
 
 Ventas Totales: Tienda con menor ingreso.
