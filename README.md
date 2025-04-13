@@ -16,7 +16,7 @@ tienda_4.csv
 
 (Se incluyen en este repositorio o se pueden descargar desde GitHub)
 
-##Métricas Evaluadas:
+## Métricas Evaluadas:
 
 Ventas Totales: Suma de los precios de productos vendidos.
 
@@ -47,10 +47,6 @@ Para comparar indicadores con unidades distintas, se utilizó MinMaxScaler de sc
 Cálculo de un puntaje compuesto que es el promedio de las métricas normalizadas.
 
 Ranking de tiendas: La tienda con el menor puntaje compuesto es recomendada para cerrar.
-
-## Resultado Final:
-Tras procesar los datos y calcular los indicadores, se recomienda cerrar Tienda_1 debido a que presenta el peor desempeño general.
-
 
 ## Ejecución
 Descarga o clona este repositorio.
