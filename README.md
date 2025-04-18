@@ -62,10 +62,10 @@ Donde analysis.py contiene el siguiente código (resumen):
 # Resultados y Conclusión
 El análisis indicó que la tienda con el puntaje total más bajo es la Tienda_4, por lo que se recomienda su cierre. Esta conclusión se basa en la comparación de:
 
-Ventas Totales: Tienda con altos ingresos, no justifica lo que viene a continuación.
+Ventas Totales: Tienda con bajos ingresos
 
 Calificación Promedio: Bajo nivel de satisfacción de clientes.
 
 % de Calificaciones Malas: Mayor porcentaje de clientes insatisfechos.
 
-Costo de Envío Promedio: Costos logísticos relativamente altos.
+Costo de Envío Promedio: Costos logísticos relativamente bajos, pero una menor eficiencia.
